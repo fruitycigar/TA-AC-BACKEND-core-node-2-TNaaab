@@ -1,0 +1,3 @@
+The purpose of this text is simple. It is to remind you that being a sovereign individual is the ultimate goal. If one wishes to be truly free of all the demands, idiosyncrasies, and intrusions that one's society or family places upon them, it is essential that one works towards setting up shop on their own. 
+
+That is the one and only path to live the 'fuck you' life. 'fuck you money' and 'fuck you, whoever you are' kind of go hand-in-hand. Remember this as you arise and aware every single day. Never forget. You are a burden, and there is no way ariound that, except to remove yourself from this milieu and to insert yourself in another, more grander one that you shall fashion for yourself.
