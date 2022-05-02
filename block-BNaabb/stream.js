@@ -7,9 +7,10 @@ function handleRequest(req, res) {
     req.on('data', (chunk) => {
         store += chunk;
     })
-    
+
     req.on('end', () => {
-        console.log(store);
+        res.write(store);
+        res.end();
     })
 }
 
