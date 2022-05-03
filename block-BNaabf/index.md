@@ -10,11 +10,11 @@ Desktop
     - server(dir)
       - app.js
 
-You are currently in server.js
+You are currently in app.js
 
 Write code to
-  - get relative path of `index.js` 
-  - get absolute path of `index.js`
+  - get relative path of `index.js` ✅
+  - get absolute path of `index.js` ✅
 
 #### server
 Create a basic http server which should grab data from a HTML form rendered on a specific route and display the content on a seperate page.
