@@ -1,7 +1,7 @@
 ## BLOCK-writeCode
 
 #### Path
-Q. Suppose we have 3 files inside a directory on desktop
+Q1. Suppose we have 3 files inside a directory on desktop
 The structure is
   - node(folder)
     - app.js
@@ -11,37 +11,14 @@ You are currently inside server.js
 
 Write code to 
 - capture absolute path of `server.js`(itself) ✅
-
-***js
-var path = require('path');
-var absolutePath = path.join(__dirname, 'server.js);
-console.log(absolutePath);
-***
-
 - get absolute path of `app.js` ✅
-
-**js
-var appPath = path.join(__dirname, 'app.js');
-console.log(appPath);
-***
-
-- get realtive path of `index.html` ✅
-
-**js
-var indexRelative = path.relative('/users/shruthisagar/desktop/node/server.js', '/users/shruthisagar/desktop/node/index.html');
-***
-
+- get relative path of `index.html` ✅
 - get absolute path of `index.html` using `path module` ✅
-
-**js
-var indexAbsolute = path.join(__dirname, 'index.html');
-console.log(indexAbsolute);
-***
  
 #### Capture data on server
 
-Q. Create a server using http
-- handle post method on '/' route ✅
+Q2. Create a server using http ✅
+- handle post method on '/' route 
 - send json data on it from postman ✅
 
 ```js
@@ -53,12 +30,12 @@ Q. Create a server using http
 }
 ```
 - capture data from request on server side using data and end event on request object ✅
-- when end event fires, send entire captured data in response with status code 201. ❌
+- when end event fires, send entire captured data in response with status code 201. ✅
 
-Q. Follow above steps with form data from postman instead of json data.
-- once data has been captured, send only captain's name in response. ？
+Q3. Follow above steps with form data from postman instead of json data.
+- once data has been captured, send only captain's name in response. ✅
 
-Q. Create server which can handle both json/form data without specifying which format of data is being received.
+Q. Create server which can handle both json/form data without specifying which format of data is being received. ✅
 - add listener on port 9000
 - use `data/end` event to capture json/form data
 - use `req.headers['Content-Type']` to check data format
