@@ -10,16 +10,39 @@ The structure is
 You are currently inside server.js
 
 Write code to 
-- capture absolute path of `server.js`(itself)
-- get absolute path of `app.js`
-- get realtive path of `index.html`
-- get absolute path of `index.html` using `path module` 
+- capture absolute path of `server.js`(itself) ✅
+
+***js
+var path = require('path');
+var absolutePath = path.join(__dirname, 'server.js);
+console.log(absolutePath);
+***
+
+- get absolute path of `app.js` ✅
+
+**js
+var appPath = path.join(__dirname, 'app.js');
+console.log(appPath);
+***
+
+- get realtive path of `index.html` ✅
+
+**js
+var indexRelative = path.relative('/users/shruthisagar/desktop/node/server.js', '/users/shruthisagar/desktop/node/index.html');
+***
+
+- get absolute path of `index.html` using `path module` ✅
+
+**js
+var indexAbsolute = path.join(__dirname, 'index.html');
+console.log(indexAbsolute);
+***
  
 #### Capture data on server
 
 Q. Create a server using http
-- handle post method on '/' route
-- send json data on it from postman
+- handle post method on '/' route ✅
+- send json data on it from postman ✅
 
 ```js
 // data format is
@@ -29,11 +52,11 @@ Q. Create a server using http
   captain: 'KL Rahul'
 }
 ```
-- capture data from request on server side using data and end event on request object
-- when end event fires, send entire captured data in response with status code 201.
+- capture data from request on server side using data and end event on request object ✅
+- when end event fires, send entire captured data in response with status code 201. ❌
 
 Q. Follow above steps with form data from postman instead of json data.
-- once data has been captured, send only captain's name in response.
+- once data has been captured, send only captain's name in response. ？
 
 Q. Create server which can handle both json/form data without specifying which format of data is being received.
 - add listener on port 9000
