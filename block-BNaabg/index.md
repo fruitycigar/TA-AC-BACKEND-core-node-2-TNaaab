@@ -138,3 +138,6 @@ Update operation is similar to create, except
 
 - flags i.e. wx -> create, r+ => update
 - during update, first we open file and remove previous content to add updated one from user.
+
+
+<!-- This looks nice and all, but I doubt I will be able to do this all on my own. Heck, I doubt I could even attempt to do this on my own without spending close to a week banging my head on the table for getting this in order. -->
